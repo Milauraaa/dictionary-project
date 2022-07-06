@@ -10,10 +10,7 @@ function App() {
       <div className="container">
         <Dictionary />
         <footer className="text-center">
-          <a
-            href="https://github.com/Milauraaa/dictionary-project"
-            target="_blank"
-          >
+          <a href="https://github.com/Milauraaa/dictionary-project">
             Open-source code,
           </a>{" "}
           by Mila Yemelianenko.
