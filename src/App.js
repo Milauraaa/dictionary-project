@@ -16,7 +16,7 @@ function App() {
           >
             Open-source code,
           </a>{" "}
-          by Mila Yemelianenko
+          by Mila Yemelianenko.
         </footer>
       </div>
     </div>
