@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Dictionary defaultKeyword="hello" />
+        <Dictionary defaultKeyword="city" />
         <footer className="text-center">
           <a href="https://github.com/Milauraaa/dictionary-project">
             Open-source code,

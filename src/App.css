@@ -6,3 +6,7 @@
 footer {
   font-family: "Indie Flower", cursive;
 }
+a {
+  color: rgb(240, 145, 4);
+  text-decoration: none;
+}

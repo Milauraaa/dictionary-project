@@ -1,3 +1,8 @@
 .section {
   font-family: "Times New Roman", Times, serif;
+  opacity: 80%;
+}
+.example {
+  letter-spacing: 1px;
+  opacity: 80%;
 }
