@@ -11,7 +11,7 @@ export default function Phonetic(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetic">
-        <a onClick={playAudio}>
+        <a href="/" onClick={playAudio}>
           <i class="fa-solid fa-volume-high icon"></i>
         </a>
         <br />
