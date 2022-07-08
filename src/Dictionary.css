@@ -1,8 +1,7 @@
 .Dictionary {
-  padding-bottom: 30px;
   margin: 60px 60px 20px 60px;
   padding: 20px 30px;
-  border: 1px solid black;
+  border: 1px solid #f09104;
 }
 
 h1,
@@ -32,7 +31,7 @@ h1 {
   height: 100%;
   bottom: 0px;
   left: 0px;
-  border-bottom: 1px solid rgb(240, 145, 4);
+  border-bottom: 1px solid #f09104;
 }
 .form {
   height: 50px;
@@ -45,6 +44,7 @@ h1 {
   position: absolute;
   bottom: 5px;
   left: 0px;
+  font-family: "Indie Flower", cursive;
   transition: all 0.3s ease-in-out;
 }
 .form input:focus + .label-name .content-input,

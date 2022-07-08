@@ -1,0 +1,14 @@
+img {
+  padding: 10px;
+  transition: filter 200ms ease-in-out;
+  -webkit-filter: grayscale(99%);
+  filter: grayscale(99%);
+}
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.Photos {
+  border: 1px solid #f09104;
+}

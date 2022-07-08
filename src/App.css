@@ -1,5 +1,7 @@
 .App {
   font-family: "Antic Slab", serif;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 footer {
   font-family: "Indie Flower", cursive;
