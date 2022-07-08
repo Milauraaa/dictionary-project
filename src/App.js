@@ -6,14 +6,14 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App m-2">
+    <div className="App">
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyword="hello" />
         <footer className="text-center">
           <a href="https://github.com/Milauraaa/dictionary-project">
             Open-source code,
           </a>{" "}
-          by Mila Yemelianenko.
+          by Mila Yemelianenko
         </footer>
       </div>
     </div>
