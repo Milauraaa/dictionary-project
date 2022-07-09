@@ -8,19 +8,18 @@ h1,
 h5 {
   text-align: center;
 }
-h5 {
-  font-size: 20px;
-}
 h1 {
   font-family: "Indie Flower", cursive;
   font-size: 50px;
   margin-bottom: 30px;
 }
+h5 {
+  font-size: 20px;
+}
 .form input {
   height: 100%;
   width: 100%;
   padding-top: 25px;
-  color: black;
   border: none;
   outline: none;
 }
@@ -55,4 +54,24 @@ h1 {
 .form input:focus + .label-name::after,
 .form input:valid + .label-name::after {
   transform: translateX(0%);
+}
+@media (max-width: 1100px) {
+  .Dictionary {
+    margin: 30px 0px 0px 0px;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .form {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .content-input {
+    font-size: 14px;
+  }
 }

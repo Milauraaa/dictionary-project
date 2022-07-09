@@ -1,5 +1,6 @@
 img {
   padding: 10px;
+  max-width: 280px;
   transition: filter 200ms ease-in-out;
   -webkit-filter: grayscale(99%);
   filter: grayscale(99%);
@@ -11,4 +12,19 @@ img:hover {
 }
 .Photos {
   border: 1px solid #f09104;
+}
+@media (max-width: 1200px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+}
+@media (max-width: 500px) {
+  img {
+    display: none;
+  }
+  .Photos {
+    border: none;
+  }
 }

@@ -1,6 +1,7 @@
 .icon {
   font-size: 36px;
   color: rgb(240, 145, 4);
+  margin: -20px 0px -20px 0px;
 }
 .icon:hover {
   color: black;
@@ -13,4 +14,12 @@
   font-size: 14px;
   font-weight: bold;
   opacity: 50%;
+}
+@media (max-width: 1100px) {
+  .icon {
+    font-size: 22px;
+  }
+  .transcription {
+    font-size: 12px;
+  }
 }

@@ -6,3 +6,9 @@
   letter-spacing: 1px;
   opacity: 80%;
 }
+@media (max-width: 1200px) {
+  .section,
+  .example {
+    font-size: 14px;
+  }
+}
