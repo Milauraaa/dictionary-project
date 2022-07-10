@@ -10,7 +10,11 @@ function App() {
       <div className="container">
         <Dictionary defaultKeyword="city" />
         <footer className="text-center">
-          <a href="https://github.com/Milauraaa/dictionary-project">
+          <a
+            href="https://github.com/Milauraaa/dictionary-project"
+            tagret="_blank"
+            title="GitHub link Dictionary-react project Yemelianenko Mila"
+          >
             Open-source code,
           </a>{" "}
           by Mila Yemelianenko

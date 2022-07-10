@@ -11,10 +11,9 @@ export default function Phonetic(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetic">
-        <p className="icon" onClick={playAudio}>
-          <i class="fa-solid fa-volume-high"></i>
+        <p onClick={playAudio}>
+          <i class="fa-solid fa-volume-high icon" alt="icon for audio"></i>
         </p>
-        <br />
         <span className="transcription">{props.phonetic.text}</span>
       </div>
     );
